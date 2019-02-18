@@ -1,0 +1,40 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				
+向前进，看到燕子湖，坐上小船，导游带领我们走进陶渊明的《桃花源记》生动实景
+ 
+ 
+继续前行，忽见小口
+
+出洞忽见桃花
+
+一路惊喜不断
+ 
+ 
+上岸后，又是惊喜不断
+
+
+
+
+
+欣赏完满满的工艺品之后，走上风雨桥
+
+走上回家的路，恋恋不舍。桂林世外桃源，真的是一个修心养性的地方。(本文地址：http://www.guilin7.com/youji/2283.html)
+			
+			

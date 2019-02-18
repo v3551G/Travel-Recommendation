@@ -1,0 +1,148 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html,body{
+	padding:0px;
+	margin:0px;
+	outline:none;
+	background:url(../image/images/2720.jpg);
+}
+img{
+	outline:none;
+	border:none;
+}
+
+.sign{
+	width:456px;
+	height:640px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	margin:0 auto;
+	/*position:absolute;****水平竖直居中*************
+	left:50%;
+	margin-left:-228px;
+	top:50%;
+	margin-top:-325px;*/
+}
+#sign1{
+	background: url(../image/images/login1.png);
+	width:456px;
+	height:18px;
+	background-repeat:no-repeat;
+}
+.sign2{
+	background:url(../image/images/login2.png);
+	height:auto;
+	background-repeat:repeat-y;
+	padding-bottom:30px;
+}
+.sign2 .notic{
+	margin-left:125px;
+	margin-top:10px;
+	width:262px;
+	color: #999;
+}
+.sign .sign2 .ID{
+	height:35px;
+	width:334px;
+	margin:0 auto;
+	margin-top:23px;
+}
+.sign .sign2  .name{
+	float:left;
+	width:auto;
+}
+.sign  .input1{
+	width:262px;
+	height:33px;
+	margin-left:10px;
+	border:1px solid #51d3d3;
+	padding-left:5px;
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.sign .sign2 .email{
+	height:35px;
+	width:334px;
+	margin:0 auto;
+	margin-top:13px;
+}
+.sign .sign2 .nickname{
+	height:35px;
+	width:334px;
+	margin:0 auto;
+	margin-top:13px;
+}
+.sign .sign2 .password{
+	height:35px;
+	width:334px;
+	margin:0 auto;
+	margin-top:13px;
+}
+.sign .sign2 .yuan{
+    height:35px;
+    width:380px;
+    margin:0 auto;
+    margin-top:13px;
+}
+
+.sign .sign2 .surepassword{
+	height:35px;
+	width:435px;
+	margin:0 auto;
+	margin-top:13px;
+}
+.sign  .input2{
+	width:262px;
+	height:33px;
+	margin-left:10px;
+	border:1px solid #51d3d3;
+	padding-left:5px;
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.sign .choose{
+	width:250px;
+	height:auto;
+	margin:0 auto;
+	margin-top:20px;
+	color:#51d3d3;
+}
+.sign .choose .ch{
+	float:left;
+}
+.sign #but{
+	width:152px;
+	height:45px;
+	margin:0 auto;
+	margin-top:30px;
+	cursor:pointer;
+}
+.sign .button1{
+	background: url(../image/images/signbut.jpg);
+	width:152px;
+	height:45px;
+	border:none;
+	cursor:pointer;
+}
+.sign #sign3{
+	background:url(../image/images/login3.png);
+	width:456px;
+	height:25px;
+}
+
+
+
+/*.Validform_checktip{margin-left:8px;line-height:20px;height:20px;overflow:hidden;color:#999;font-size:12px;}
+.Validform_right{color:#71b83d;padding-left:20px;background:url(images/right.png) no-repeat left center;}
+.Validform_wrong{color:red;padding-left:20px;white-space:nowrap;background:url(images/error.png) no-repeat left center;}
+.Validform_loading{padding-left:20px;background:url(images/onLoad.gif) no-repeat left center;}
+.Validform_error{background-color:#ffe7e7;}
+#Validform_msg{color:#7d8289;font:12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;width:280px;background:#fff;position:absolute;top:0px;right:50px;z-index:99999; display:none;filter:progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999');-webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa;}
+#Validform_msg .iframe{position:absolute;left:0px;top:-1px;z-index:-1;}
+#Validform_msg .Validform_title{line-height:25px;height:25px;text-align:left;font-weight:bold;padding:0 8px;color:#fff;position:relative;background-color:#000;}
+#Validform_msg a.Validform_close:link,#Validform_msg a.Validform_close:visited{line-height:22px;position:absolute;right:8px;top:0px;color:#fff;text-decoration:none;}
+#Validform_msg a.Validform_close:hover{color:#cc0;}
+#Validform_msg .Validform_info{padding:8px;border:1px solid #000;border-top:none;text-align:left;}
+*/

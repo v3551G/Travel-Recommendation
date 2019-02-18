@@ -1,0 +1,30 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　这里呈现在我们眼前的是欧洲12-13世纪哥特式建筑，高耸的尖塔、墩柱、贺形城堡及护墙、交叉的拱顶、喷泉，无不透出高贵典雅的欧式建筑风格，本区有园内最具刺激、最令人心跳的游乐设施&mdash;&mdash;&ldquo;超级旋风&rdquo;。
+
+
+　　超级旋风
+　　每次可乘坐40人，它的旋转臂主轴离地高10米，它以几倍的加速度作用引起旋转运动，旋臂来回摆动及使座椅360度翻转，让您在尖叫声中感受高速失重，在有惊无险中全方位体验惊险刺激。
+
+
+　　威尼斯商店
+　　在感受&ldquo;超级旋风&rdquo;独特魅力后，不妨到威尼斯商店看一看，挑上几件中古世纪欧洲风格的礼品，感受一下浓浓的欧洲风情。
+相关旅游线路： 桂林乐满地一日游 http://www.guilin7.com/line/377.html(本文地址：http://www.guilin7.com/gonglue/1959.html)
+			
+			

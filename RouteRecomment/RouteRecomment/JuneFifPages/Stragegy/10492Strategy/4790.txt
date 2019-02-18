@@ -1,0 +1,20 @@
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　2012年4月6日至9日， 暴雨下的陽朔，資訊分享：交通：去陽朔的卧鋪可預先打電話給司機，會通知你上車地點，票價為150元，正價是200元，但中途要換車，一分錢一分貨。陽朔內的交通都可以在汽車站座小巴，去遇龍河和月亮山都是幾塊，市內景點騎單車也可到達，一天租金10元，但是去黃姚我問過很多渠道，都說要先去桂林再座車去黃姚，所以我們就報當地的團完事了，反正服務不錯，價錢就150元，自己去的話光是門票就100元了。住宿：西街有多街賓館豐儉由人，我們住金鑫賓館，閒日標間60元，假日80元，條件可以接受，而且有熱水，平均算比青年旅社床位35元更便宜呀。路線介紹：其實遊陽朔一個周末就可以了，如果想休閒一點，首天可以先去銀子岩、下午去漓江飄流，晚上看劉三姐印象，第二天去黃姚古鎮一天，晚上泡西街酒吧，第三天早上騎單車遊月亮山，到處走走，中午到朝陽碼頭或興隆橋，再遇龍河飄流到工農橋，晚上住大巴或許明天到桂林坐飛機也可以。(本文地址：http://www.guilin7.com/youji/4790.html)
+			
+			

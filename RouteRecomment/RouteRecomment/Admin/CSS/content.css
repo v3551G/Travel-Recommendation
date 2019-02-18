@@ -1,0 +1,9 @@
+﻿body {
+ padding:0 0 0 0; margin:0 0 0 0;
+}
+*{ font-size:12px;
+    margin-left: 0px;
+}
+a{ text-decoration:none;color:Blue}
+a:hover{ text-decoration:underline; color:Orange;}
+p{ font-size:16px; font-weight:bold;}

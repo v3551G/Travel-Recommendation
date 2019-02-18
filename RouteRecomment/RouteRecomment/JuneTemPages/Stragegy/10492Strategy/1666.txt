@@ -1,0 +1,59 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				
+继续桂林游记，前篇有童鞋说旅游建议太多了，影响他看片的情绪；恩，那这次就纯放图好了，写字还怪累的~~
+
+闲
+从遇龙河漂流下来，到附近的农家休闲~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+桂林日落
+
+租自行车，到工农桥看日落。
+
+
+
+
+
+And we spotted hot air balloons. Fcuk, so damn cool.
+
+桂林 阳朔 热气球
+
+Later we asked price, 800/p. Fcuk, so damn expensive.
+
+And weeks after we were back, 桂林阳朔一热气球爆炸初步确认３名外国游客死亡，囧&hellip;&hellip;&hellip;.
+
+
+
+
+(本文地址：http://www.guilin7.com/youji/1666.html)
+			
+			

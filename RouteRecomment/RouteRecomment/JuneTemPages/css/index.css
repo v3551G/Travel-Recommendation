@@ -1,0 +1,152 @@
+*{margin:0;padding:0;}
+body{background:url(../imagesH/back-img.png) repeat;}
+.indexBackImg{width:100%;border:0;z-index:-1;position:relative;}
+
+/*地图*/
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+	#dituContent{width:1024px;height:496px;}
+/*这里是头部*/
+.seek-top{
+		width:100%;
+		height:90px;
+		
+		position:fixed;
+		top:0;
+		left:0;
+		right:0px;
+		/*border:1px solid red;*/
+		z-index:1;
+		padding-top:8px;
+	}
+.nav_scroll{
+		width:100%;
+		height:90px;
+		background:#5DADE2;
+		
+		top:0;
+		left:0;
+		right:0px;
+		/*border:1px solid red;*/
+		z-index:1;
+		
+		margin-top:0px;
+	}
+	
+	
+	.seek-top .Cen{width:1020px;height:97px;position:relative;left:52%;margin-left:-510px;}
+	
+	.seek-top img{width:164px;height:63px;margin-top:15px;cursor:pointer;margin-left:5px;}
+	.sousuo{position:relative;left:305px;top:-60px;height:60px;width:442px;background:url(../imagesH/seek-sousuo.png) no-repeat;}
+	.sousuo #seek-input{width:360px;height:40px;margin-left:30px;margin-top:11px;border:hidden;
+		background:#eeeeee;font-size:18px;}
+	.sousuo .seek-button{background:url(../imagesH/seek-sousuo2.png) no-repeat;width:28px;height:28px;cursor:pointer;
+		float:right;margin-top:15px;margin-right:12px;}
+	.seek-top .seek-login{list-style-type:none;position:relative;left:810px;top:-100px;/*width:100px;*/
+		font-size:18px;}
+	.seek-top .seek-login li{float:left;margin-left:45px;clear:top;}
+	.seek-top .seek-login li a,.seek-top .seek-login li a:visited{color:#fff;text-decoration:none;}
+	.seek-top .seek-login li a:hover,.seek-top .seek-login li a.link{color:#fff;text-decoration:underline;}
+
+ #seek-login{display:block;list-style-type:none;position:relative;left:810px;top:-100px;
+                                         font-size:18px;}
+                         #seek-login li{float:left;margin-left:45px;clear:top;}
+                        #seek-login li a, #seek-login li a:visited{color:#fff;text-decoration:none;}
+                        #seek-login li a:hover, #seek-login li a.link{color:#fff;text-decoration:underline;}
+                /*登陆过后的*/
+               
+                 #seek-login-after{display:none;list-style-type:none;position:relative;left:810px;top:-115px;
+                                                font-size:15px;line-height:25px;font-family:"微软雅黑";}
+                #seek-login-after li{list-style-type:none;margin-left:45px;clear:top;color:#000;color:#fff;}
+                #seek-login-after li a{color:#F90; text-decoration:none;}
+                #seek-login-after li a:hover{color:#F90;text-decoration:underline;}
+
+	/*这里是地图部分*/
+
+
+	/*这里是中间部分*/
+	.host-hostImg{width:660px;height:35px;padding-top:45px;padding-left:5px;padding-bottom:5px;margin-top:-20px;}
+.host-hostImg img{cursor:pointer;}
+.host-hostImg .refresh-right{position:relative;left:430px;top:-5px;}
+
+.index-hostSpot{width:660px;height:520px;background:#fff;padding-top:10px;border:1px solid #d8d8d8;box-shadow:#d8d8d8 5px 5px 5px;}
+.index-hostSpot .spot-left{width:322px;height:490px;float:left;margin-left:25px;}
+.index-hostSpot .spot-left img{width:322px;height:240px;}
+.index-hostSpot .spot-right{width:267px;height:490px;float:left;margin-left:25px;}
+.index-hostSpot .spot-right img{width:267px;height:157px;z-index:-1;}
+.spot-bottomImg{margin-top:10px;}
+.index-hostSpot a{text-align:center;text-decoration:none;}
+
+/* 设置显示文字定位位置，背景半透明 */ 
+
+.index-hostSpot figcaption{position:absolute;background:#000;color:#fff;width:82px;height:41px;z-index:0;line-height:41px;font-size:18px;}
+.index-hostSpot figcaption:hover{display:block;}
+.index-hostSpot figcaption.hudie{margin-top:10px;}
+.index-hostSpot a:hover{filter:alpha(opacity=60);-moz-opacity:0.8;opacity:0.8;}
+.index-hostSpot a:hover a.now{
+filter:alpha(opacity=100);-moz-opacity:1;opacity:1;} 
+	/*这里是轮播部分*/
+/*轮播*/
+.rollBox{width:1019px;height:350px;overflow:hidden;padding:10px;margin:0 auto;background:#F4F4F4;
+	box-shadow:#dbdbdb 5px 5px 5px;margin-top:10px;border:1px solid #d8d8d8;}
+.rollBox .LeftBotton{height:43px;width:24px;background:url(../imagesH/index-left-button.jpg) no-repeat;overflow:hidden;float:left;display:inline;margin:130px 0 0 0;cursor:pointer;}
+.rollBox .RightBotton{height:43px;width:24px;background:url(../imagesH/index-right-button.jpg) no-repeat;overflow:hidden;float:left;display:inline;margin:130px 0 0 0;cursor:pointer;margin-left:10px;}
+.rollBox .Cont{width:960px;overflow:hidden;float:left;}
+.rollBox .ScrCont{width:10000000px;}
+.rollBox .Cont .pic{width:242px;float:left;text-align:center;}
+
+.rollBox .Cont .pic img{padding:9px;background:#fff;display:block;margin:0 auto;width:220px;height:329px;}
+.rollBox .Cont .pic div{line-height:20px;color:#505050;margin:15px 0px;}
+.rollBox .Cont .pic div span{width:220px;height:58px;display:block;position:relative;top:-82px;left:11px;background:#000;color:#fff;}
+.rollBox .Cont .pic div span .spot{float:left;position:relative;top:-11px;color:#fff;left:10px;}
+.rollBox .Cont .pic div span .spot .p1{font-size:}
+.rollBox .Cont .pic div span .spot p{margin-top:10px;font-size:13px;}
+.rollBox .Cont .pic div span h2{color:red;line-height:59px;}
+/*.rollBox .Cont a:link,.rollBox .Cont a:visited{color:#626466;text-decoration:none;}
+.rollBox .Cont a:hover{color:#f00;text-decoration:underline;}*/
+.rollBox .Cont  .pic{filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+.rollBox .Cont  .pic:hover{filter:alpha(opacity=100);-moz-opacity:1;opacity: 1; }
+.rollBox #List1,.rollBox #List2{float:left;}
+
+
+
+	/*这里是页脚*/
+
+ /*页脚*/
+
+
+        .seek-foot{width:1020px;height:100px;position:relative;top:50px;
+                color:#5b5c5c;font-size:14px;padding-left:10px;bottom:20px;}
+                .seek-foot img{margin-bottom:20px;}
+        .seek-foot ul{position:relative;left:80px;top:-15px;list-style-type:none;}
+        .seek-foot ul li{float:left;margin-left:10px;padding-left:10px;padding-right:10px;border-right:1px solid #5b5c5c;}
+        .seek-foot ul li a:link,.seek-foot ul li a:visited{color:#5b5c5c;text-decoration:none;}
+        .seek-foot ul li a:hover{color:#5dade2;}
+
+
+
+        .index-body{margin-left:-510px;left:50%;width:1022px;/*margin:0 auto;*/
+		position:relative;margin-top:-470px;z-index:0;/*padding:0px;*/}
+		.index-body1{top:-422px;}
+.host-ways{width:319px;float:right;background:#5DADE2;margin-top:-530px;}
+/*热门路线。。。*/
+#fair{float:left; width:22px; position:relative;top:40px;}
+
+.host-ways h1{ background:#5dade2;width:300px;height:50px;color:#ff9600; line-height:50px;font-size:25px;padding-left:15px;}
+.host-ways h1 a img{float:right;margin-top:20px;margin-right:10px;}
+.host-ways #Ways{ width:319px; height:409px; background:#fff;}
+
+.host-ways ul li{ text-align:center;border-bottom:1px dashed #dbdbdb;width:319px;height:57px;list-style-type:none;}
+.host-ways ul a{padding-left:10px; text-decoration:none; font-weight:bold; line-height:32px; color:#2f6c95; font-size:15px;}
+.host-ways ul a:link,.host-ways ul a:visited{color:#2f6c95;}
+.host-ways ul a:hover{color:#ff9600;}
+
+.host-ways ul li:hover,#oneNew{background:#f0f4f4;}
+.host-ways ul li:hover,#twoNew{background:#f0f4f4;}
+.host-ways ul li:hover,#threeNew{background:#f0f4f4;}
+.host-ways ul li:hover,#fourNew{background:#f0f4f4;}
+.host-ways ul li:hover,#fiveNew{background:#f0f4f4;}
+.host-ways ul li:hover,#sixNew{background:#f0f4f4;}
+.host-ways ul li:hover,#New{background:#f0f4f4;}
+
+.host-ways .host-four a,.host-ways .host-five a{line-height:65px;}

@@ -1,0 +1,54 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				阳朔的山山水水之间四季有景，处处是景，就看您如何发现。是的，阳朔山水从来不缺少美，而是需要更多的对美的发现。除了大量丰富的自然景观外，还有众多的人文景观可以进行写作、绘画和摄影创作。
+
+
+九马画山
+
+半边奇渡
+
+浪石胜景
+
+书童山
+
+黄布倩影
+
+青厄风光
+
+
+遇龙桥
+
+碧潭青螺
+
+世外桃源
+
+碧莲倩影
+
+大榕树
+
+
+月亮山
+
+阳朔西街
+
+东郎山
+
+(本文地址：http://www.guilin7.com/gonglue/1957.html)
+			
+			

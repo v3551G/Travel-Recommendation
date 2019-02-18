@@ -1,0 +1,21 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　上午8点从永福县城出发8点30分到达金钟山景区，玩玩中国富人的运动体验高尔夫，10点30分体验山地车运动或漂流体验；12点农家乐吃农家饭；永福一日游1点30分廖扶寺祈福，看金钟山胜景；2点20分游永福岩和天坑；5点返程。(本文地址：http://www.guilin7.com/youji/2729.html)
+			
+			

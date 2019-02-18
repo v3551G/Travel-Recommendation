@@ -1,0 +1,21 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　【中秋 国庆节活动】广西桂林阳朔自助游 游十里画廊 遇龙河漂流 西街泡吧桂林游记攻略、深圳户外活动、深圳户外运动 深圳旅游 深圳周末活动 深圳户外自助游 深圳户外俱乐部深圳自驾游 深圳农家乐、深圳驴友户外 深圳自由行[2011-09-02](本文地址：http://www.guilin7.com/gonglue/2476.html)
+			
+			

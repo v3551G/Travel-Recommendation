@@ -1,0 +1,21 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　打算八月份和朋友在桂林游三天，我和2个朋友在玉林出发，有两个朋友在北京过来桂林3天游，请教大家如何安排旅游路线，，在桂林集合，然后同游桂林3天，想去乐满地、游漓江、阳朔，主要是想带着北方的朋友领略一下桂林的山水，路线不必太紧凑，谁能帮着安排路线？先谢谢大家(本文地址：http://www.guilin7.com/gonglue/3978.html)
+			
+			

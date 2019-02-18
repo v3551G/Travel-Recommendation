@@ -1,0 +1,21 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　旅游咨询，接送机场服务。为你量身打造适合你的旅游线路，安排合理，高效，省钱的旅游行程(十人以上安排导游)。大巴车，轿车，商务车等一系列车况良好，性能优越的旅游车，并提供专业司机及导游，可参照我们推荐的旅游线路或者自订线路用车旅游。适合喜桂林，阳朔，龙脊梯田自助游欢自由行，休闲游，独立成团，商务旅游等游客。(本文地址：http://www.guilin7.com/youji/3245.html)
+			
+			

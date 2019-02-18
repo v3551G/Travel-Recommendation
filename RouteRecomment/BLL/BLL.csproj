@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D4D85586-16ED-44E4-80A7-5E3168BE0ECD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithm\SeeCountBLL.cs" />
+    <Compile Include="AuthorityBLL\AdminInfoBLL.cs" />
+    <Compile Include="AuthorityBLL\AdminRoleBLL.cs" />
+    <Compile Include="AuthorityBLL\ResourceBLL.cs" />
+    <Compile Include="AuthorityBLL\RoleBLL.cs" />
+    <Compile Include="AuthorityBLL\RoleResourceBLL.cs" />
+    <Compile Include="CityBLL\CityInfoBLL.cs" />
+    <Compile Include="EntertainmentBLL\EntertainmentBLL.cs" />
+    <Compile Include="HotelBLL\HotelInfoBLL.cs" />
+    <Compile Include="HotelBLL\HtlTypeBLL.cs" />
+    <Compile Include="HotelBLL\HtlTypeDetailBLL.cs" />
+    <Compile Include="LogBLL\ClickLogBLL.cs" />
+    <Compile Include="LogBLL\DragLogBLL.cs" />
+    <Compile Include="LogBLL\ViewLogBLL.cs" />
+    <Compile Include="LookAnotherBLL\LookAnotherBLL.cs" />
+    <Compile Include="MallInfoBLL\MallInfoBLL.cs" />
+    <Compile Include="OtherStraSplit\OtherStraBLL.cs" />
+    <Compile Include="PicBLL\PicInfoBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantBLL\RestaurantInfoBLL.cs" />
+    <Compile Include="Scenery\AllSceTypeBLL.cs" />
+    <Compile Include="Scenery\SceneryInfoBLL.cs" />
+    <Compile Include="Scenery\STypeBLL.cs" />
+    <Compile Include="UserBLL\UserInfoBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{5A674167-EF27-49E7-8DF2-045C3B0E4017}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{191FC037-AA49-41A3-8EBB-DE1A2377B96F}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

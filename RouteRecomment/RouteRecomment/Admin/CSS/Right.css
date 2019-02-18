@@ -1,0 +1,35 @@
+﻿ *{
+    margin-left:0px;
+    margin-top:0px;
+    font-size:12px;
+    font-family:Arial;
+}
+.divMain
+{
+		width:95%;
+		margin:0px auto;
+		text-align:center;
+	}
+.divLeft
+{
+	width:20%;
+	float:left;
+	text-align:center;
+	line-height:24px;
+	min-height:24px;
+	}
+.divRight
+{
+	width:60%;
+	float:left;
+	text-align:left;
+	line-height:24px;
+	min-height:24px;
+	}
+.divBack
+{
+	width:80%;
+	line-height:24px;
+	min-height:24px;
+	float:left;
+	}

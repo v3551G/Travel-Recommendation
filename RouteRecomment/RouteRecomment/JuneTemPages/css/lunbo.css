@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+/*
+*
+* 路线推荐轮播css
+*
+*/
+ul,ol,li,dl{list-style-type:none;}
+em,i,dfn,cite,strong,small{font-style:normal;} 
+img{border:0;}
+/*fieldset,button,input,select,option{vertical-align:middle;font:12px/18px arial,sans-serif;}*/
+table{border-collapse:collapse;border-spacing:0}
+textarea{resize:none}
+/* color */
+.lunbo a:link,.lunbo a:visited{color:#575757;text-decoration:none;}
+.lunbo a:hover{color:#ef4165;text-decoration:none;}
+.lunbo a:active{color:#1d7400;}
+
+/* clearfix */
+.clearfix{ *zoom:1;}
+.clearfix:after{display:table; line-height:0; content:""; clear:both;}
+
+/* public.omission */
+.fl{ float:left;}            .fr{ float:right;}            .tc{ text-align:center;}      .tr{ text-align:right;} 
+.fb{ font-weight:bold;}      .f12{ font-size:12px;}        h3{ font-weight:normal;}      .listop{ padding-top:20px;}
+
+
+/* lunbo */
+.lunbo{ width:1021px; margin:-5px auto 0 auto;}
+#focus{width:1021px;height:418px;overflow:hidden;position:relative;}
+#focus ul{height:380px;position:absolute;left:-10px;}
+#focus ul li{float:left;width:1021px;height:418px;overflow:hidden;position:relative;background:#000;}
+#focus ul li img{width:1021px;height:418px;}
+#focus ul li div{position:absolute;overflow:hidden;}
+#focus .btnBg{position:absolute;width:780px;height:20px;left:0;bottom:0;}
+#focus .btn{position:absolute;width:780px;height:10px;padding:5px 10px;right:450px;bottom:0;text-align:right;}
+#focus .btn span{display:inline-block;width:22px;height:22px;margin-left:5px;margin-top:-18px;cursor:pointer;
+	background:#FFF;border-radius:10px;}
+#focus .btn span.on{background:#ffffff;}
+
+#focus .preNext{width:57px;height:57px;position:absolute;top:150px;background:url(../imagesH/sprite.png) no-repeat 0 0;cursor:pointer;}
+#focus .pre{left:0;}
+#focus .next{right:0;background-position:right top;}

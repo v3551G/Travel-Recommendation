@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A674167-EF27-49E7-8DF2-045C3B0E4017}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorityDAL\AdminInfoDAL.cs" />
+    <Compile Include="AuthorityDAL\AdminRoleDAL.cs" />
+    <Compile Include="AuthorityDAL\ResourceDAL.cs" />
+    <Compile Include="AuthorityDAL\RoleDAL.cs" />
+    <Compile Include="AuthorityDAL\RoleResourceDAL.cs" />
+    <Compile Include="AuthorityDAL\SQLHelper.cs" />
+    <Compile Include="CityDAL\CityInfoDAL.cs" />
+    <Compile Include="LogDAL\DragLogDAL.cs" />
+    <Compile Include="EntertainmentDAl\EntertainmentInfoDAL.cs" />
+    <Compile Include="HotelDAL\HotelInfoDAL.cs" />
+    <Compile Include="HotelDAL\HtlTypeDAL.cs" />
+    <Compile Include="HotelDAL\HtlTypeDetailDAL.cs" />
+    <Compile Include="LogDAL\ClickLogDAL.cs" />
+    <Compile Include="LogDAL\ViewLogDAL.cs" />
+    <Compile Include="LookAnotherDAL\LookAnotherDAL.cs" />
+    <Compile Include="MallDAL\MallInfoDAL.cs" />
+    <Compile Include="Md5\Md5_Encrypt.cs" />
+    <Compile Include="PicDAL\PicInfoDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantDAL\RestaurantInfoDAL.cs" />
+    <Compile Include="Scenery\AllSceTypeDAL.cs" />
+    <Compile Include="Scenery\SceneryInfoDAL.cs" />
+    <Compile Include="Scenery\STypeDAL.cs" />
+    <Compile Include="StrategyDAL\StrategyInfoDAL.cs" />
+    <Compile Include="UserDAL\UserInfoDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{191FC037-AA49-41A3-8EBB-DE1A2377B96F}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,163 @@
+*{margin:0;padding:0;}
+
+
+
+	body{background:url(../images/back-img.png) repeat;padding-top:134px;}
+	/*
+	*搜索框与logo、登陆注册
+	*
+	*/
+	#seek-top{
+		width:100%;
+		height:100px;
+		background:#5dade2;
+		position:fixed;
+		top:0;
+		left:0;
+		right:0px;
+		/*border:1px solid red;*/
+		z-index:1;
+		padding-top:20px;
+	}
+	#seek-top .Cen{width:1020px;height:97px;position:relative;left:50%;margin-left:-510px;}
+	
+	#seek-top img{width:190px;margin-top:15px;cursor:pointer;margin-left:5px;}
+	.sousuo{position:relative;left:305px;top:-60px;height:60px;width:442px;background:url(../images/seek-sousuo.png) no-repeat;}
+	.sousuo #seek-input{width:360px;height:40px;margin-left:30px;margin-top:11px;border:hidden;
+		background:#eeeeee;font-size:18px;}
+	.sousuo .seek-button{background:url(../images/seek-sousuo2.png) no-repeat;width:28px;height:28px;cursor:pointer;
+		float:right;margin-top:15px;margin-right:12px;}
+	#seek-top .seek-login{list-style-type:none;position:relative;left:810px;top:-100px;/*width:100px;*/
+		font-size:18px;}
+	#seek-top .seek-login li{float:left;margin-left:45px;clear:top;}
+	#seek-top .seek-login li a,#seek-top .seek-login li a:visited{color:#fff;text-decoration:none;}
+	#seek-top .seek-login li a:hover,#seek-top .seek-login li a.link{color:#fff;text-decoration:underline;}
+	/*
+	*铺满整个屏幕的图片
+	*/
+	.back-img{width:100%;border:0;margin-top:120px;z-index:-1;}
+
+
+
+	/*
+	*热门景点这块
+	*
+	*/
+
+	.host-spot {width:341px;height:395px;float:left;margin-top:30px;margin-left:38px;
+border:3px solid #5dade2;}
+
+/*热门景点*/
+.host-spot h1{font-size:25px;color:#fff;cursor:pointer;background:#5dade2;height:62px;line-height:62px;padding-left:20px;margin-bottom:10px;}
+img{border:0}/* css 注释说明：设置图片边框为0 */ 
+/*body{behavior:url("csshover.htc");text-align:center;} css注释说明：兼容ie6 支持标签使用hover */ 
+.host-img{ width:152px; height:142px; margin:0 auto;float:left;margin-left:12px;margin-top:11px;
+	filter:alpha(opacity=80);-moz-opacity:0.8;opacity:0.8;} 
+.host-img{ position:relative;width:152px; height:142px;} 
+.host-img a{display:none;font-weight:bolder;font-size:12px;} 
+.host-img a .font-1{font-size:15px;color:#fff;margin-left:3px;margin-right:10px;}
+/*.host-img a .font-2{width:}*/
+.host-img:hover{filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
+.host-img a:link,.host-img a:hover{color:#fff;text-decoration:none;}
+.host-img:hover{cursor:pointer} 
+.host-img:hover a.now{cursor:pointer; position:absolute;bottom:0;left:0; display:block;color:#FFF;
+	width:152px; height:31px; line-height:31px; 
+background:#297fb8;filter:alpha(opacity=60);-moz-opacity:0.8;opacity:0.8;} 
+/* 设置显示文字定位位置，背景半透明 */ 
+
+
+
+/*旅游攻略*/
+#traval-guide{width:780px;float:left;margin-top:10px;}
+#traval-guide input{width:129px;height:52px;border:none;margin-left:-10px;background:url(../images/back-img.png);
+	border-bottom:10px solid #5dade2;font-weight:bolder;font-size:25px;margin-top:-10px;}
+#traval-guide #div1 .active{border-bottom:10px solid #ff9600;cursor:text;}
+#traval-guide #guideConten {width:643px; height:765px;background:#fff;box-shadow:#8C8C8C 5px 5px 5px;
+	display:none; position:relative;top:-10px;}
+
+#traval-guide #commandLogo{width:236px;height:52px;float:right;border-bottom:12px solid #5dade2;position:relative;
+	left:-137px;top:21px;}
+#traval-guide #commandLogo img{border:none;position:absolute;left:120px;top:20px;}
+/*#traval-guide #method {display:block;}
+#method li{width:643px;}*/
+.guide-left,.guide-right{float:left;}
+.guide-left{margin:10px;cursor:pointer;margin-right:20px;}
+.guide-right{width:400px;margin-top:10px;line-height:27px;}
+.guide-right h3{color:#5dade2;font-weight:bolder;}
+.guide-right .Auth{font-size:13px;color:#b6b6b6;margin-bottom:10px;font-weight:bold;}
+.guide-right #guide-Time{font-size:14px;color:#b6b6b6;float:right;}
+.guide-right p{font-size:18px;text-indent:2em;width:400px;}
+.guide-right a{float:right;font-size:15px;}
+#traval-guide #guideConten #medhtod a:link,#traval-guide #guideConten #medhtod a:visited{color:#000;text-decoration:none;}
+#traval-guide #guideConten #medhtod a:hover{color:#5dade2;text-decoration:none;}
+#traval-guide #guideConten #medhtod a:active{color:#5dade2;}
+
+/*分页*/
+ #guideConten #pages{height:65px;/*background:red;*/font-size:18px;color:#000;
+ 	margin-left:170px;margin-top:10px;margin-bottom:20px;position:relative;top:30px;}
+#guideConten #pages li{float:left;list-style-type:none;display:inline;margin-right:8px;}
+/*#guideConten #home-page{width:80px;text-align:center;}*/
+/*#guideConten #last-page{padding:2px 2px;text-align:center;}*/
+#guideConten .current-page{padding:1px 8px;background:#5dade2;border:2px solid #5dade2;margin-top:-3px;}
+#pages li a:visited,#pages li a:link{padding:2px 8px;border:2px solid #5dade2;color:#000;
+	text-decoration:none;background:none;}
+/*#pages li:hover{background:#5dade2;}*/
+#pages li a:hover{padding:2px 8px;background:#5dade2;}
+        /*h2 a:link,h2 a:visited {color:#F60;text-decoration:none;}
+        h2 a:hover { color:#FF7256;text-decoration:underline;}*/
+
+
+        /*地图头部*/
+        #Map{width:635px;height:499px;float:left;margin-top:30px;}
+#Map ul{width:640px;background:#5dade2;height:89px;padding-top:10px;border-radius:5px;margin-left:-2px;}
+ #Map  ul li{float:left;cursor:pointer;width:110px;height:44px;background:red;margin-left:15px;}
+ #Map ul .back-0{background:url(../images/spots-1.png) no-repeat;}
+ #Map   ul .back-1{background:url(../images/grogshop-1.png) no-repeat;}
+    #Map  ul .back-2{background:url(../images/food-1.png) no-repeat;}
+     #Map   ul .back-3{background:url(../images/shopping-1.png) no-repeat;}
+        #Map  ul .back-4{background:url(../images/pastime-1.png) no-repeat;}
+
+
+#Map ul .back-10{background:url(../images/spots-2.png) no-repeat;}
+   #Map ul .back-11{background:url(../images/grogshop-2.png) no-repeat;}
+    #Map  ul .back-12{background:url(../images/food-2.png) no-repeat;}
+      #Map  ul .back-13{background:url(../images/shopping-2.png) no-repeat;}
+         #Map ul .back-14{background:url(../images/pastime-2.png) no-repeat;}
+/*热门路线。。。*/
+#fair{float:left; width:22px; position:relative;left:-115px;}
+.host-ways{width:347px;height:509px;float:left;margin-top:-930px;margin-left:674px;box-shadow:#dbdbdb 5px 5px 5px;}
+*{padding:0;margin:0;}
+.host-ways h1{ width:332px;height:50px;background:#5dade2; color:#FFF; line-height:50px; padding-left:15px;font-size:25px;}
+.host-ways h1 img{margin-left:120px;position:relative;top:8px;}
+.host-ways #Ways{ width:347px; height:460px; background:#fff;}
+
+.host-ways ul li{ text-align:center;border-bottom:1px dashed #dbdbdb;width:347px;height:65px;list-style-type:none;}
+.host-ways ul a{padding-left:10px; text-decoration:none; font-weight:bold; line-height:32px; color:#2f6c95; font-size:15px;}
+.host-ways ul a:link,.host-ways ul a:visited{color:#2f6c95;}
+.host-ways ul a:hover{color:#ff9600;}
+
+.host-ways ul li:hover,#oneNew{background:#f0f4f4;}
+.host-ways ul li:hover,#twoNew{background:#f0f4f4;}
+.host-ways ul li:hover,#threeNew{background:#f0f4f4;}
+.host-ways ul li:hover,#fourNew{background:#f0f4f4;}
+.host-ways ul li:hover,#fiveNew{background:#f0f4f4;}
+.host-ways ul li:hover,#sixNew{background:#f0f4f4;}
+.host-ways ul li:hover,#New{background:#f0f4f4;}
+
+.host-ways .host-four a,.host-ways .host-five a{line-height:65px;}
+
+ /*页脚*/
+
+
+        .seek-foot{width:1020px;height:184px;float:left;position:relative;left:180px;
+                top:20px;color:#5b5c5c;font-size:14px;padding-left:10px;}
+                .seek-foot img{margin-bottom:20px;}
+        .seek-foot ul{position:relative;left:80px;top:-15px;}
+        .seek-foot ul li{float:left;margin-left:10px;padding-left:10px;padding-right:10px;border-right:1px solid #5b5c5c;}
+        .seek-foot ul li a:link,.seek-foot ul li a:visited{color:#5b5c5c;text-decoration:none;}
+        .seek-foot ul li a:hover{color:#5dade2;}
+
+
+
+
+	

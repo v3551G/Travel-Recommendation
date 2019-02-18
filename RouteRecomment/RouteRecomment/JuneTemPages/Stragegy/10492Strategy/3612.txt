@@ -1,0 +1,21 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　到“心之旅，齐上路”看【我在桂林花桥】，花桥位于七星公园小东江与灵剑溪汇流处。花桥自古景色迷人山光水色，幽雅绮丽让人心旷神怡。北望花桥，水桥四孔与倒影，通圆如四轮明月，有“花桥虹影”美誉，甚为壮观，在这里有月看水中映月无月看桥孔影月。　　在花桥前方审视了许久，自己仿佛在画中，醉了、醉了。。。。(本文地址：http://www.guilin7.com/gonglue/3612.html)
+			
+			

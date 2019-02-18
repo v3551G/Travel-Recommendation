@@ -1,0 +1,37 @@
+
+*
+{
+magin:0;
+padding:0;
+}
+body
+{
+background:#02267a;
+text-align:center;
+position:relative;
+}
+
+#all{ width:468px;
+height:308px;
+background:#FFF;
+position:absolute;
+top:150px;
+left:33%
+}
+img{ border:0px;}
+#top{ width:468px; height:170px; float:left;}
+#middle{ width:468px; height:122px; float:left;}
+
+#foot{ width:468px; height:16px; float:left;}
+#middle .first{ width:16px; height:122px; float:left;}
+#middle .sec{ width:436px; height:122px; background:#FFF; float:left;}
+#middle .sec table td{ padding-left:86px; font-size:12px; font-weight:1000;}
+#middle .sec  input{ width:150px; border:1 solid #999; height:15px;  }
+#middle .sec table tr #check{ padding-left:85px;}
+#middle .sec table tr #check span{ padding-left:2px; padding-top:3px; line-height:23px;}
+#middle .sec table #check input{ width:85px;margin-left:1px;}
+
+#middle .sec table #button{width:70px;height:18px;background:url(images/bt_login.gif);border:0px;cursor:pointer;}
+#middle .thr{ width:16px; height:122px;  float:left; }
+#middle .sec table tr td lable{ padding-left:100px;}
+#userDiv {display:none;float:right;position:relative;font-size:12px; margin-left:15px; text-indent:-250px;}

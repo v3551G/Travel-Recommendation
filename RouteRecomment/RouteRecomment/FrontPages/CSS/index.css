@@ -1,0 +1,112 @@
+*{margin:0;padding:0;}
+body{background:url(../images/back-img.png) repeat;}
+.indexBackImg{width:100%;border:0;z-index:-1;position:relative;}
+
+/*这里是头部*/
+.seek-top{
+		width:100%;
+		height:100px;
+		
+		position:fixed;
+		top:0;
+		left:0;
+		right:0px;
+		/*border:1px solid red;*/
+		z-index:1;
+		padding-top:20px;
+	}
+.nav_scroll{
+		width:100%;
+		height:100px;
+		background:#5DADE2;
+		
+		top:0;
+		left:0;
+		right:0px;
+		/*border:1px solid red;*/
+		z-index:1;
+		
+		margin-top:0px;
+	}
+	
+	
+	.seek-top .Cen{width:1020px;height:97px;position:relative;left:50%;margin-left:-510px;}
+	
+	.seek-top img{width:190px;margin-top:15px;cursor:pointer;margin-left:5px;}
+	.sousuo{position:relative;left:305px;top:-60px;height:60px;width:442px;background:url(../images/seek-sousuo.png) no-repeat;}
+	.sousuo #seek-input{width:360px;height:40px;margin-left:30px;margin-top:11px;border:hidden;
+		background:#eeeeee;font-size:18px;}
+	.sousuo .seek-button{background:url(../images/seek-sousuo2.png) no-repeat;width:28px;height:28px;cursor:pointer;
+		float:right;margin-top:15px;margin-right:12px;}
+	.seek-top .seek-login{list-style-type:none;position:relative;left:810px;top:-100px;/*width:100px;*/
+		font-size:18px;}
+	.seek-top .seek-login li{float:left;margin-left:45px;clear:top;}
+	.seek-top .seek-login li a,.seek-top .seek-login li a:visited{color:#fff;text-decoration:none;}
+	.seek-top .seek-login li a:hover,.seek-top .seek-login li a.link{color:#fff;text-decoration:underline;}
+
+
+
+	/*这里是地图部分*/
+
+
+	/*这里是中间部分*/
+	.host-hostImg{width:1009px;height:35px;padding-top:45px;padding-left:5px;padding-bottom:5px;margin-top:12px;}
+.host-hostImg img{cursor:pointer;}
+.host-hostImg .refresh-right{position:relative;left:784px;top:-10px;}
+
+.index-hostSpot{width:1020px;height:520px;background:#fff;padding-top:10px;border:1px solid #d8d8d8;box-shadow:#d8d8d8 5px 5px 5px;}
+.index-hostSpot .spot-left{width:322px;height:490px;float:left;margin-left:10px;}
+.index-hostSpot .spot-left img{width:322px;height:240px;}
+
+.index-hostSpot .spot-middle{width:387px;height:490px;float:left;margin-left:10px;}
+.index-hostSpot .spot-middle img{width:387px;height:490px;}
+.index-hostSpot .spot-right{width:267px;height:490px;float:left;margin-left:10px;}
+.index-hostSpot .spot-right img{width:267px;height:157px;z-index:-1;}
+.spot-bottomImg{margin-top:10px;}
+.index-hostSpot a{text-align:center;text-decoration:none;}
+
+/* 设置显示文字定位位置，背景半透明 */ 
+
+.index-hostSpot figcaption{position:absolute;background:#000;color:#fff;width:82px;height:41px;z-index:0;line-height:41px;font-size:18px;}
+.index-hostSpot figcaption:hover{display:block;}
+.index-hostSpot figcaption.hudie{margin-top:10px;}
+.index-hostSpot a:hover{filter:alpha(opacity=60);-moz-opacity:0.8;opacity:0.8;}
+.index-hostSpot a:hover a.now{
+filter:alpha(opacity=100);-moz-opacity:1;opacity:1;} 
+	/*这里是轮播部分*/
+/*轮播*/
+.rollBox{width:1019px;height:350px;overflow:hidden;padding:10px;margin:0 auto;background:#fff;
+	box-shadow:#dbdbdb 5px 5px 5px;margin-top:10px;border:1px solid #d8d8d8;}
+.rollBox .LeftBotton{height:43px;width:24px;background:url(../images/index-left-button.jpg) no-repeat;overflow:hidden;float:left;display:inline;margin:130px 0 0 0;cursor:pointer;}
+.rollBox .RightBotton{height:43px;width:24px;background:url(../images/index-right-button.jpg) no-repeat;overflow:hidden;float:left;display:inline;margin:130px 0 0 0;cursor:pointer;margin-left:10px;}
+.rollBox .Cont{width:960px;overflow:hidden;float:left;}
+.rollBox .ScrCont{width:10000000px;}
+.rollBox .Cont .pic{width:242px;float:left;text-align:center;}
+
+.rollBox .Cont .pic img{padding:9px;background:#fff;display:block;margin:0 auto;width:220px;height:329px;}
+.rollBox .Cont .pic div{line-height:20px;color:#505050;margin:15px 0px;}
+.rollBox .Cont .pic div span{width:220px;height:58px;display:block;position:relative;top:-82px;left:11px;background:#000;color:#fff;}
+.rollBox .Cont .pic div span .spot{float:left;position:relative;top:-11px;color:#fff;left:10px;}
+.rollBox .Cont .pic div span .spot .p1{font-size:}
+.rollBox .Cont .pic div span .spot p{margin-top:10px;font-size:13px;}
+.rollBox .Cont .pic div span h2{color:red;line-height:59px;}
+/*.rollBox .Cont a:link,.rollBox .Cont a:visited{color:#626466;text-decoration:none;}
+.rollBox .Cont a:hover{color:#f00;text-decoration:underline;}*/
+.rollBox .Cont  .pic{filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+.rollBox .Cont  .pic:hover{filter:alpha(opacity=100);-moz-opacity:1;opacity: 1; }
+.rollBox #List1,.rollBox #List2{float:left;}
+
+
+
+	/*这里是页脚*/
+
+ /*页脚*/
+
+
+        .seek-foot{width:1020px;height:100px;position:relative;top:50px;
+                color:#5b5c5c;font-size:14px;padding-left:10px;bottom:20px;}
+                .seek-foot img{margin-bottom:20px;}
+        .seek-foot ul{position:relative;left:80px;top:-15px;list-style-type:none;}
+        .seek-foot ul li{float:left;margin-left:10px;padding-left:10px;padding-right:10px;border-right:1px solid #5b5c5c;}
+        .seek-foot ul li a:link,.seek-foot ul li a:visited{color:#5b5c5c;text-decoration:none;}
+        .seek-foot ul li a:hover{color:#5dade2;}

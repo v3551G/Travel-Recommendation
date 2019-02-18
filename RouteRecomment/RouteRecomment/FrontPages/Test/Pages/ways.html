@@ -1,0 +1,390 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>路线推荐</title>
+	<link rel="stylesheet" type="text/css" href="../css/ways.css"><!--css-->
+	<link rel="stylesheet" type="text/css" href="../css/lunbo.css"><!--轮播css-->
+	<script type="text/javascript" src="../Js/jquery.1.4.2-min.js"></script>
+	<script type="text/javascript" src="../Js/lunbo.js"></script><!--轮播的特效-->
+	<script type="text/javascript" src="../Js/tab.js"></script><!--选项卡-->
+    <!--  <script type="text/javascript" src="../Js/Map.js"></script> 地图-->
+
+	<style>
+	.seek-body{margin-left:-510px;left:50%;width:1020px;
+		position:relative;/*top:-1423px;*/z-index:0;}
+
+
+
+
+
+
+
+
+</style>
+<script>
+
+</script>
+
+</head>
+<body>
+	
+	
+	<!--搜索框-->
+	<div id="seek-top">
+		<div class="Cen">
+			<img src="../images/LOGO.png"/>
+			<div class="sousuo">
+				
+			<input type="text" name="text" id="seek-input" node-type="loginname" autocomplete="off" placeholder="云南丽江">
+			
+			<div class="seek-button" title="搜索"><a href="#"></a></div>
+			</div>
+			<ul class="seek-login">
+				<li><a href="">登陆</a></li>
+				<li><a href="">注册</a></li>
+			</ul>
+                </div>
+			
+	</div>
+	<!-- <img class="back-img" src="../images/back-img.png" /> -->
+	<!--body-->
+	<div class="seek-body">
+
+
+		<!--轮播-->
+		<div class="lunbo clearfix">
+
+<div id="focus">
+<ul>
+    <li><a href="" target="_blank" title=""><img alt="" src="../images/01.jpg" /></a></li>
+    <li><a href="" target="_blank" title=""><img alt="" src="../images/02.jpg" /></a></li>
+    <li><a href="" target="_blank" title=""><img alt="" src="../images/03.jpg" /></a></li>
+    <li><a href="" target="_blank" title=""><img alt="" src="../images/04.jpg" /></a></li>
+    <li><a href="" target="_blank" title=""><img alt="" src="../images/05.jpg" /></a></li>
+</ul>
+</div>
+</div> <!-- lunbo End -->
+
+
+<style>
+#map-1{width:630px;height:438px;background:#f2f1ec;margin-left:3px;margin-top:-45px;border:1px solid #d8d7d2;}
+</style>
+
+<div id="Map">
+        <ul>
+                <li class="back-0"></li>
+                <li class="back-1"></li>
+                <li class="back-2"></li>
+                <li class="back-3"></li>
+                <li class="back-4"></li>
+        </ul>
+        <div id="map-1">这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图这里是地图</div>
+</div>
+
+<script type="text/javascript">
+        var ma=document.getElementById("Map");
+        var map = ma.getElementsByTagName("li");
+  
+
+        for(var i=0;i<map.length;i++)
+        {
+                map[i].flag=3;
+                map[i].index=i;
+                map[i].onclick=function()
+                {       
+                        var str="back-";
+
+                        if(this.flag == 1)
+                        {
+                                this.className=str.concat(this.index);
+
+                                this.flag = 2;
+
+                        }else
+                        {
+
+                                this.className=str.concat(this.index+10);
+                                this.flag = 1;
+                        }
+
+                }
+               
+        }
+        </script>
+
+
+
+
+<!--热门景点-->
+<div class="host-spot">
+	<h1>热门景点</h1>
+
+	<div class="host-img" style="background:url(../images/host-1.jpg);background-size:152px 142px;"> 
+<a href="" target="_blank"  class="now"><font class="font-1">梯田</font><font class="font-2">梯田世界之冠</font></a> 
+</div> 
+<div class="host-img" style="background:url(../images/host-2.jpg);background-size:152px 142px;"> 
+<a href=""  target="_blank" class="now"><font class="font-1">水上乐园</font><font class="font-2">挑战刺激</font></a> 
+</div> 
+<div class="host-img" style="background:url(../images/host-3.jpg);background-size:152px 142px;"> 
+<a href="" target="_blank"  class="now"><font class="font-1">乐满地</font><font class="font-2">挑战你的胆量</font></a> 
+</div> 
+<div class="host-img" style="background:url(../images/host-4.jpg);background-size:152px 142px;"> 
+<a href=""  target="_blank" class="now"><font class="font-1">阳朔</font><font class="font-2">百里漓江百里画廊</font></a> 
+</div> 
+
+</div>
+
+<!--旅游攻略-->
+
+<div id="traval-guide">
+	<div id="div1">
+		<img src="../images/tra-logo.jpg" style="position:relative;top:23px;"/>
+	<input type="button" class="active" value="热门" />
+	<input type="button" value="最新" />
+	<h1 id="commandLogo"><a href=""><img src="../images/command-logo.png" /></a></h1>
+
+	<div id="guideConten" style="display:block;">
+        
+        <div id="medhtod"> 
+        	<ul>
+        		<li>
+
+        			<div class="guide-left" ><img style="width:190px;height:150px;"src="../images/one.jpg" title="海洋乡" alt="海洋乡"/></div>
+        			<div class="guide-right">
+        				<h3>旅游攻略</h3>
+        				<span class="Auth">作者：作者</span><span id="guide-Time">2014-4-19</span>
+        				<p>旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</p>
+        				<a href=""><<详细信息</a>
+        			</div>	
+        		
+        		</li>
+        		<li><div class="guide-left" ><img  style="width:190px;height:150px;"src="../images/one.jpg" title="海洋乡" alt="海洋乡"/></div>
+        			<div class="guide-right">
+        				<h3>旅游攻略</h3>
+        				<span class="Auth">作者：作者</span><span id="guide-Time">2014-4-19</span>
+        				<p>旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</p>
+        				<a href=""><<详细信息</a>
+        			</div>	</li>
+        		<li><div class="guide-left" ><img style="width:190px;height:150px;" src="../images/one.jpg" title="海洋乡" alt="海洋乡"/></div>
+        			<div class="guide-right">
+        				<h3>旅游攻略</h3>
+        				<span class="Auth">作者：作者</span><span id="guide-Time">2014-4-19</span>
+        				<p>旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</p>
+        				<a href=""><<详细信息</a>
+        			</div>	</li>
+        		<li><div class="guide-left" ><img  style="width:190px;height:150px;"src="../images/one.jpg" title="海洋乡" alt="海洋乡"/></div>
+        			<div class="guide-right">
+        				<h3>旅游攻略</h3>
+        				<span class="Auth">作者：作者</span><span id="guide-Time">2014-4-19</span>
+        				<p>旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</p>
+        				<a href=""><<详细信息</a>
+        			</div>	</li>
+        	</ul>
+        </div>
+       
+      
+        <!--分页-->
+<div id="pages">
+	<ul>
+		<li id="home-page"><a href="" style="padding:2px 10px;text-align:center;">首&nbsp;页</a></li>
+		<li class="pre-page"><a href="" ><<</a></li>
+		<li  class="current-page">1</li>
+		<li><a href="">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">5</a>...</li>
+		<li class="next-page"><a href="">>></a></li>
+		<li id="last-page"><a href="" style="padding:2px 2px;text-align:center;">最后一页</a></li>
+	</ul>
+</div>
+	
+    	</div>
+
+	<div id="guideConten">
+        
+        <div id="medhtod" > 
+        	<ul>
+        		<li>
+
+        			<div class="guide-left" ><img src="../images/two.jpg" title="海洋乡" alt="海洋乡"/></div>
+        			<div class="guide-right">
+        				<h3>旅游攻略</h3>
+        				<span class="Auth">作者：作者</span><span id="guide-Time">2014-4-19</span>
+        				<p>旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</p>
+        				<a href=""><<详细信息</a>
+        			</div>	
+        		
+        		</li>
+        		<li><div class="guide-left" ><img src="../images/two.jpg" title="海洋乡" alt="海洋乡"/></div>
+        			<div class="guide-right">
+        				<h3>旅游攻略</h3>
+        				<span class="Auth">作者：作者</span><span id="guide-Time">2014-4-19</span>
+        				<p>旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</p>
+        				<a href=""><<详细信息</a>
+        			</div>	</li>
+        		<li><div class="guide-left" ><img src="../images/two.jpg" title="海洋乡" alt="海洋乡"/></div>
+        			<div class="guide-right">
+        				<h3>旅游攻略</h3>
+        				<span class="Auth">作者：作者</span><span id="guide-Time">2014-4-19</span>
+        				<p>旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</p>
+        				<a href=""><<详细信息</a>
+        			</div>	</li>
+        		<li><div class="guide-left" ><img src="../images/two.jpg" title="海洋乡" alt="海洋乡"/></div>
+        			<div class="guide-right">
+        				<h3>旅游攻略</h3>
+        				<span class="Auth">作者：作者</span><span id="guide-Time">2014-4-19</span>
+        				<p>旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</p>
+        				<a href=""><<详细信息</a>
+        			</div>	</li>
+        	</ul>
+        </div>
+        <div id="pages">
+	<ul>
+                <li id="home-page"><a href="" style="padding:2px 10px;text-align:center;">首&nbsp;页</a></li>
+                <li class="pre-page"><a href="" ><<</a></li>
+                <li  class="current-page">1</li>
+                <li><a href="">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a>...</li>
+                <li><a href="#">5</a></li>
+                <li class="next-page"><a href="">>></a></li>
+                <li id="last-page"><a href="" style="padding:2px 2px;text-align:center;">最后一页</a></li>
+        </ul>
+</div>
+   	</div>
+
+
+
+
+</div>
+
+   
+</div>
+
+
+
+<!--热门路线-->
+
+
+
+<script type="text/javascript">
+function myone(){
+    $("#fair").animate({top:"50px"},700);
+       $("#fair").slideup("slow");
+    $("#fair").slideDown("slow");
+
+
+}
+function mytwo(){
+    $("#fair").animate({top:"65px"},700);
+       $("#fair").slideup("slow");
+    $("#fair").slideDown("slow");
+
+}
+function mythree(){
+    $("#fair").animate({top:"135px"},700);
+
+}
+function myfour(){
+    $("#fair").animate({top:"200px"},700);
+       $("#fair").slideup("slow");
+    $("#fair").slideDown("slow");
+
+}
+function myfive(){
+    $("#fair").animate({top:"265px"},700);
+       $("#fair").slideup("slow");
+    $("#fair").slideDown("slow");
+
+}
+function mysix(){
+    $("#fair").animate({top:"335px"},700);
+       $("#fair").slideup("slow");
+    $("#fair").slideDown("slow");
+
+}
+function myseven(){
+    $("#fair").animate({top:"400px"},700);
+       $("#fair").slideup("slow");
+    $("#fair").slideDown("slow");
+
+}
+</script>
+<div id="fair"><img src="../images/myFair.png" /></div>
+        <div class="host-ways">
+        
+        <h1>热门路线<a href=""><img class="refresh-right" src="../images/refresh1.png"/></a></h1>
+        
+        
+    
+    <div id="Ways">
+        <ul>
+            <li class="host-one" name="host-one"   onmouseover="myOne()">
+                <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a></p>
+            <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a><a href="">蝴蝶泉</a></p>
+            </li>
+
+
+            <li class="host-two" name="host-two"   onmouseover="mytwo()">
+                 <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a></p>
+            <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a></p>
+            </li>
+               
+
+            <li class="host-three" name="host-one"  onmouseover="mythree()" >
+                <p><a href="">漓江</a><a href="">老榕树</a></p>
+            <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a></p>
+            </li>
+                
+
+            <li class="host-four" name="host-four"   onmouseover="myfour()">
+                <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a><a href="">蝴蝶泉</a></p>
+            </li>
+                
+
+            <li class="host-five" name="host-five"   onmouseover="myfive()">
+                <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a></p>
+            </li>
+
+                
+            <li class="host-six" name="host-six"   onmouseover="mysix()">
+                <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a></p>
+            <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a><a href="">蝴蝶泉</a></p>
+            </li>
+                
+
+            <li class="host-seven" name="host-seven"   onmouseover="myseven()">
+                <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a></p>
+            <p><a href="">漓江</a><a href="">老榕树</a><a href="">蝴蝶泉</a><a href="">蝴蝶泉</a></p>
+            </li>
+
+
+        </ul>
+        
+    </div>
+    
+</div>
+	
+
+	</div>
+       
+<div class="seek-foot">
+	<img src="../images/HR.png"  />
+        <span>友情链接：</span>
+        <ul>
+                <li><a href="" target="_blank" >美团</a> </li>
+                <li><a href="" target="_blank" >淘宝旅游</a>   </li>
+                <li><a href="" target="_blank" >去哪儿</a>  </li>
+                <li><a href="" target="_blank" >马蜂窝</a></li>
+                <li><a href="" target="_blank" >携程</a>  </li>
+                <li><a href="" target="_blank" >同城</a>   </li>
+                <li><a href="" target="_blank" >豆瓣</a>  </li>
+                <li><a href="" target="_blank" >百度旅游</a>   </li>
+                <hr style="border:none;clear:both;"/>
+        </ul>
+        <p>               
+网络文化经营许可证：文网文[2010]040号|增值电信业务经营许可证：浙B2-20080224-1|信息网络传播视听节目许可证：1109364号</p>
+</div>
+</body>
+</html>

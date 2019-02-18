@@ -1,0 +1,22 @@
+F:\网站代码  2014\RouteRecomment\Model\obj\Debug\ResolveAssemblyReference.cache
+F:\网站代码  2014\RouteRecomment\Model\bin\Debug\Model.dll
+F:\网站代码  2014\RouteRecomment\Model\bin\Debug\Model.pdb
+F:\网站代码  2014\RouteRecomment\Model\obj\Debug\Model.dll
+F:\网站代码  2014\RouteRecomment\Model\obj\Debug\Model.pdb
+F:\网站代码  2014\RouteRecomment\Model\bin\Debug\Microsoft.SqlServer.Replication.dll
+F:\网站代码  2014\RouteRecomment\Model\bin\Debug\zh-CHS\Microsoft.SqlServer.Replication.resources.dll
+F:\网站代码2014\RouteRecomment\Model\bin\Debug\Model.dll
+F:\网站代码2014\RouteRecomment\Model\bin\Debug\Model.pdb
+F:\网站代码2014\RouteRecomment\Model\obj\Debug\ResolveAssemblyReference.cache
+F:\网站代码2014\RouteRecomment\Model\obj\Debug\Model.dll
+F:\网站代码2014\RouteRecomment\Model\obj\Debug\Model.pdb
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\Model\bin\Debug\Model.dll
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\Model\bin\Debug\Model.pdb
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\Model\obj\Debug\Model.dll
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\Model\obj\Debug\Model.pdb
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\RouteRecomment8_18\RouteRecomment\Model\bin\Debug\Model.dll
+F:\RouteRecomment8_18\RouteRecomment\Model\bin\Debug\Model.pdb
+F:\RouteRecomment8_18\RouteRecomment\Model\obj\Debug\Model.dll
+F:\RouteRecomment8_18\RouteRecomment\Model\obj\Debug\Model.pdb
+F:\RouteRecomment8_18\RouteRecomment\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

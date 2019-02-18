@@ -1,0 +1,4 @@
+
+
+             这是我第二次到桂林，象鼻山依旧依附在漓江边上，只是周围被圈了起来，成了收费景区，每人40元。看来这张城市名片身价涨了不少！不过收费也有好处，显得更有秩序。好了，上美景！  < script > function showMiniAd(){ var vn = "tinfo"; var dataURL = "http://t.sohu.com/third/user.jsp?passport="+window._xpt+"&vn="+vn; new LinkFile(dataURL, { type: ' script ', noCache: false, callBack: { variable: vn, onLoad: function(){ var data = eval("(" + vn + ")") if(data != null && data.status == 1){ var userLink = data.url; //var userLink = data.icon; $('miniAd').innerHTML = "我正在玩搜狐微博，快来“关注”我，了解我的最新动态吧。"+userLink+""; $('miniAd').show(); } }, onFailure: function(){} }}); } showMiniAd();
+        

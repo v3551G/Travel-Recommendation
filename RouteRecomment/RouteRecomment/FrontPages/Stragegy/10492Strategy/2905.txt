@@ -1,0 +1,21 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　行程简介：　　【活动组织】东莞游自在户外俱乐部　　【活动日期】每周五(晚)—周一(早上)　　【活动内容】梦幻漓江,阳朔西街泡吧,踩自行车骑行乡间田园,遇龙河漂流　　【集合时间】★21：20东莞南城车站集合上车　　【截止日期】星期四中午12:00(本文地址：http://www.guilin7.com/youji/2905.html)
+			
+			

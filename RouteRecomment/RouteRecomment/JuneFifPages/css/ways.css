@@ -1,0 +1,323 @@
+
+
+	body{background:url(../imagesH/back-img.png) repeat;padding-top:134px;
+    top: 0px;
+    left: 0px;
+}
+	/*
+	*搜索框与logo、登陆注册
+	*
+	*/
+	#seek-top{
+		width:100%;
+		height:90px;
+		background:#5dade2;
+		position:fixed;
+		top:0;
+		left:0;
+		right:0px;
+		/*border:1px solid red;*/
+		z-index:1;
+		padding-top:8px;
+	}
+	#seek-top .Cen{width:1020px;height:97px;position:relative;left:50%;margin-left:-510px;}
+	
+	#seek-top img{width:164px;height:63px;margin-top:15px;cursor:pointer;margin-left:5px;}
+	.sousuo{position:relative;left:305px;top:-60px;height:60px;width:442px;background:url(../imagesH/seek-sousuo.png) no-repeat;}
+	.sousuo #seek-input{width:360px;height:40px;margin-left:30px;margin-top:11px;border:hidden;
+		background:#eeeeee;font-size:18px;}
+	.sousuo .seek-button{background:url(../imagesH/seek-sousuo2.png) no-repeat;width:28px;height:28px;cursor:pointer;
+		float:right;margin-top:11px;margin-right:12px;}
+	 #seek-login{display:block;list-style-type:none;position:relative;left:810px;top:-100px;
+                                         font-size:18px;}
+                         #seek-login li{float:left;margin-left:45px;clear:top;}
+                        #seek-login li a, #seek-login li a:visited{color:#fff;text-decoration:none;}
+                        #seek-login li a:hover, #seek-login li a.link{color:#fff;text-decoration:underline;}
+                 /*登陆过后的*/
+               
+                 #seek-login-after{display:none;position:relative;left:290px;top:-145px;
+                                                font-size:15px;line-height:25px;font-family:"微软雅黑";}
+                #seek-login-after li{list-style-type:none;float:left;margin-left:10px;clear:top;color:#000;color:#fff;}
+                #seek-login-after li a{color:#F90; text-decoration:none;}
+                #seek-login-after li a:hover{color:#F90;text-decoration:underline;}
+
+                 #weather{ position:absolute; right:-120px; top:-10px;}
+	/*
+	*铺满整个屏幕的图片
+	*/
+	.back-img{width:100%;border:0;margin-top:120px;z-index:-1;}
+
+
+
+
+
+
+
+
+        /*地图头部*/
+       
+
+
+  /*
+  *热门景点这块
+  *
+  */
+
+  .host-spot {width:341px;height:395px;margin-top:30px;
+border:3px solid #5dade2;}
+
+/*热门景点*/
+.host-spot h1{font-size:30px;color:#fff;cursor:pointer;background:#5dade2;
+  height:50px;line-height:50px;padding-left:10px;margin-bottom:10px;}
+img{border:0}/* css 注释说明：设置图片边框为0 */ 
+/*body{behavior:url("csshover.htc");text-align:center;} css注释说明：兼容ie6 支持标签使用hover */ 
+.host-img{ width:152px; height:142px; margin:0 auto;float:left;margin-left:12px;margin-top:11px;
+  filter:alpha(opacity=80);-moz-opacity:0.8;opacity:0.8;} 
+.host-img{ position:relative;width:152px; height:142px;} 
+.host-img a{display:none;font-weight:bolder;font-size:12px;} 
+.host-img a .font-1{font-size:15px;color:#fff;margin-left:3px;margin-right:10px;}
+/*.host-img a .font-2{width:}*/
+.host-img:hover{filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
+.host-img a:link,.host-img a:hover{color:#fff;text-decoration:none;}
+.host-img:hover{cursor:pointer} 
+.host-img:hover a.now{cursor:pointer; position:absolute;bottom:0;left:0; display:block;color:#FFF;
+  width:152px; height:31px; line-height:31px; 
+background:#297fb8;filter:alpha(opacity=60);-moz-opacity:0.8;opacity:0.8;} 
+/* 设置显示文字定位位置，背景半透明 */ 
+
+
+/*热门路线。。。*/
+#fair{float:left;top:80px;position:relative;left:-8px;}
+.host-ways{width:347px;height:auto;float:left;margin-top:30px;box-shadow:#dbdbdb 5px 5px 5px;}
+*{padding:0;margin:0;}
+.host-ways h1{ font-size:30px;background:#5dade2;width:347px;height:53px;color:#fff; line-height:53px;
+}
+.host-ways h1 a img{float:right;margin-top:20px;margin-right:10px;}
+.host-ways #Ways{ width:345px;height:auto;background:#fff;/*overflow:hidden;*/font-size:14px;
+}
+.host-ways #Ways .host-one{width:315px;text-align:left;position:relative;margin-left:35px;
+          padding-top:15px;
+          padding-bottom:15px;}
+
+.host-ways #Ways .host-one p{width:315px;line-height:25px;margin-right: 10px;}
+.host-ways #Ways .host-one p a+a{margin-left:8px;}
+.host-ways  a{text-decoration:none;color:#2f6c95;font-weight:bold;}
+.host-ways  a:link,.host-ways  a:visited{color:#2f6c95;}
+.host-ways  a:hover{color:#ff9600;}
+
+
+ /*页脚*/
+
+
+        .seek-foot{width:1020px;height:184px;float:left;/*position:relative;left:180px;*/
+                margin-top:50px;color:#5b5c5c;font-size:14px;text-align:center;}
+                .seek-foot img{margin-bottom:10px;}
+        .seek-foot ul{width:600px;margin:0 auto;}
+        .seek-foot ul li+li{border-right:1px solid #5b5c5c;margin-left:10px;}
+        .seek-foot ul li{float:left;padding-right:10px;}
+        .seek-foot ul li a:link,.seek-foot ul li a:visited{color:#5b5c5c;text-decoration:none;}
+        .seek-foot ul li a:hover{color:#5dade2;}
+        .seek-foot p{text-align:center;margin-top:20px;}
+       
+
+
+#dituContent{width:785px;
+height:599px;
+background:#f2f1ec;
+border:#ccc solid 1px;margin-top:-3px;
+}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap;}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word;}
+    #MapAll{width:1035px;height:660px;margin-top:0px;}
+    #Map{background:#5dade2;width:790px;height:89px;margin-left:4px;margin-top:-55px;padding-top:10px;border-radius:5px;
+      float:left;}
+    /*#Map{width:640px;height:89px;padding-top:10px;border-radius:5px;}*/
+/*
+    5种类型选择
+   */
+
+  #Map input{cursor:pointer;width:110px;height:44px;margin-left:35px;border:none;}
+  #Map input:hover,#Map input:link,#Map input:visited{border:none;}
+
+  #Map .back-0{background:url(../imagesH/spots-1.png) no-repeat;}
+    #Map .back-1{background:url(../imagesH/shopping-1.png) no-repeat;}
+      #Map .back-2{background:url(../imagesH/grogshop-1.png) no-repeat;}
+        #Map .back-3{background:url(../imagesH/food-1.png) no-repeat;}
+          #Map .back-4{background:url(../imagesH/pastime-1.png) no-repeat;}
+
+
+ #Map .back-10{background:url(../imagesH/spots-2.png) no-repeat;}
+    #Map .back-11{background:url(../imagesH/shopping-2.png) no-repeat;}
+      #Map .back-12{background:url(../imagesH/grogshop-2.png) no-repeat;}
+        #Map .back-13{background:url(../imagesH/food-2.png) no-repeat;}
+          #Map .back-14{background:url(../imagesH/pastime-2.png) no-repeat;}
+
+
+
+#MapMessage {
+  position: relative;
+  float:left;
+  width:225px;height:590px;
+  background-color: #fff;
+  
+}
+
+/* bd */
+.bd{width:225px;height:590px;}
+.top{height:590px;width:220px;overflow:hidden;float:left;text-indent:2em;}
+.top ul{width:220px;padding-bottom:5px;font-size:12px;line-height:20px;}
+.scroll{width:5px;height:590px;float:left; background:#999;
+ position:relative;border-radius:5px;}
+.scroll p{width:5px;height:61px;background:#666;cursor:auto;left:0;top:1px;
+  position:absolute;border-radius:5px; cursor:pointer;}
+
+
+
+
+
+ .allCount{width:225px;height:55px;line-height:55px;background:#5dade2;text-align:center;}
+ .allCount p{font-family:微软雅黑;font-size:22px;color:#fff;}
+.SCdiv{width:225px;height:auto;padding-top:10px;padding-bottom:10px;border-bottom:1px dashed #ccc;} 
+ .SCdiv:hover{background:#d0e6f5;}
+ .newSCdiv{background:#d0e6f5;}
+
+ .SCdiv .SCimg{width:21px;position:relative;left:10px;} 
+ .SCdiv .SCmessage{width:180px;position:relative;margin-top:-30px;left:30px;} /**/ 
+.SCdiv .SCmessage a:link, .SCdiv .SCmessage a:visited{text-decoration:none;color:#366c83;} 
+.SCdiv .SCmessage a+a:link, .SCdiv .SCmessage a+a:visited{text-decoration:underline;color:#366c83;}
+.SCdiv .SCmessage a:hover{text-decoration:underline;color:#5dade2;}
+ .SCdiv .SCmessage a+a:hover{text-decoration:underline;color:#5dade2;}
+
+/*攻略。。。。*/
+.gonglve{float:left;margin-top:7px;width:640px;height:auto;}
+#gonglve{width:640px;margin-left:10px;height:auto;}
+ #commandLogo{width:215px;float:left;margin-top:61px;margin-left:-224px;border-bottom:10px solid #5dade2;}
+ #commandLogo img{border:none;float:right;margin-top:-17px;}
+ #gonglve #active{border:none;border-bottom:10px solid #ff9600;color:#ff9600;}
+#gonglve input[name=navbar]{cursor:pointer;width:129px;height:52px;border:none;margin-left:-10px;background:url(../images/back-img.png);
+  border-bottom:10px solid #5dade2;font-weight:bolder;font-size:25px;margin-top:-10px;}
+#gonglve input+input[name=navbar]{margin-left:-10px;}
+
+
+#spotContent {width:600px;height:auto;box-shadow:#d5d5d5 5px 5px 5px; background:#fff;border:1px solid #d5d5d5; display:none;padding:10px;padding-bottom:30px;}
+#spotContent #ConUl li{border-bottom:1px dashed #ccc;}
+#spotContent #ConUl li+li{margin-top:10px;}
+#spotContent .Con .spot-left{float:left;cursor:pointer;}
+#spotContent .Con .spot-right{float:left;margin-left:30px;width:350px;line-height:27px;}
+#spotContent .Con .spot-right h3{font-size:15px;color:#5dade2;cursor:pointer;}
+
+.spot-right #spotTime{font-size:14px;color:#b6b6b6;float:right;}
+.spot-right p{width:350px;height:auto;font-size:13px;text-indent:2em;height:auto;line-height:25px;color:#666;
+      min-height:95px;}
+.spot-right .gonglveMore a{float:right;font-size:12px;}
+#spotContent .spot-right .gonglveMore a:link,#spotContent  .spot-right .gonglveMore a:visited{color:#000;text-decoration:none;}
+#spotContent .spot-right .gonglveMore a:hover{color:#5dade2;text-decoration:none;}
+#spotContent .spot-right .gonglveMore a:active{color:#5dade2;}
+.spot-right .Auto a{font-size:13px;color:#b6b6b6;margin-bottom:10px;font-weight:bold;}
+#spotContent .spot-right .Auto a:link,#spotContent  .spot-right .Auto a:visited{color:#b6b6b6;text-decoration:none;}
+#spotContent .spot-right .Auto a:hover{color:#b6b6b6;text-decoration:underline;}
+#spotContent .spot-right .Auto a:active{color:#b6b6b6;}
+
+
+/*分页*/
+#pages{font-size:14px;color:#000;margin-top:20px;background:red;
+  }
+#pages ul{margin:0 auto;background:green;}
+#pages li{float:left;list-style-type:none;margin-left:3px;}
+
+.current-page{padding:1px 6px;background:#5DADE2;border:2px solid #5DADE2;margin-top:-3px;}
+#pages li a{padding:2px 6px;border:2px solid #5DADE2;}
+#pages li a:visited,#pages li a:link{color:#000;
+  text-decoration:none;background:none;}
+input[name=AspNetPager4]{padding:1px 5px;cursor:pointer;margin-left:3px;font-size:14px;text-align:center;}
+#pages li a:hover{padding:2px 6px;background:#5DADE2;}
+
+
+	
+
+
+
+/*#traval-guide #method {display:block;}
+#method li{width:643px;}*/
+.guide-left,.guide-right{float:left;}
+.guide-left{margin:10px;cursor:pointer;margin-right:20px;}
+.guide-right{width:400px;margin-top:10px;line-height:27px;}
+.guide-right h3{color:#5dade2;font-weight:bolder;}
+.guide-right .Auth{font-size:13px;color:#b6b6b6;margin-bottom:10px;font-weight:bold;}
+.guide-right #guide-Time{font-size:14px;color:#b6b6b6;float:right;}
+.guide-right p{font-size:18px;text-indent:2em;width:400px;}
+.guide-right a{float:right;font-size:15px;}
+#traval-guide #guideConten #medhtod a:link,#traval-guide #guideConten #medhtod a:visited{color:#000;text-decoration:none;}
+#traval-guide #guideConten #medhtod a:hover{color:#5dade2;text-decoration:none;}
+#traval-guide #guideConten #medhtod a:active{color:#5dade2;}
+
+#MapMessage {
+  position: relative;
+  float:left;
+  width:225px;height:590px;
+  background-color: #fff;
+} 
+ .allCount{width:225px;height:55px;line-height:55px;background:#5dade2;text-align:center;}
+ .allCount p{font-family:微软雅黑;font-size:22px;color:#fff;}
+/* 。。。。。。。。。。。*/
+.jp-container{
+    width:223px;
+    height:592px;
+    position:relative;
+    background:#fff;
+    border:1px solid #D8DFEA;
+	float:left;
+}
+.txt{
+    padding:15px 5px;
+    display:block;
+    line-height:20px;
+    color: #000;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom:1px solid #F2F4F8;
+    border-top:1px solid #D8DFEA;
+    text-decoration: none;
+}
+.txt:first-child{
+    border-top:none;
+}
+.txt:last-child{
+    border-bottom:none;
+}
+.txt:hover{
+   background:#ECEFF5;
+   border-bottom-color:#ECEFF5;
+}
+.txt span{ 
+    font-size:14px;
+    font-weight:bold;
+    padding:2px 0 5px 0;
+	text-transform:uppercase;
+}
+.txt:hover .aa{
+    color: blue;
+}
+.bb {
+    color: blue; 
+}
+.BMap_Marker:hover .txt:hover .aa{
+    color: blue;
+}
+.txt img{
+    float:left;
+    margin:-5px 10px 0px 0px;
+    padding:3px;
+    background:#fff;
+    border:1px solid #D8DFEA;
+}
+.txt a {
+    float: right;
+    margin-right: 20px;
+}
+.ScrollAnimation {
+    transition: top 1s ease;
+    -webkit-transition: top 1s ease;
+    -o-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+}

@@ -1,0 +1,28 @@
+F:\网站代码  2014\RouteRecomment\DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\网站代码  2014\RouteRecomment\DAL\bin\Debug\DAL.dll
+F:\网站代码  2014\RouteRecomment\DAL\bin\Debug\DAL.pdb
+F:\网站代码  2014\RouteRecomment\DAL\obj\Debug\DAL.dll
+F:\网站代码  2014\RouteRecomment\DAL\obj\Debug\DAL.pdb
+F:\网站代码  2014\RouteRecomment\DAL\bin\Debug\Model.dll
+F:\网站代码  2014\RouteRecomment\DAL\bin\Debug\Model.pdb
+F:\网站代码2014\RouteRecomment\DAL\bin\Debug\DAL.dll
+F:\网站代码2014\RouteRecomment\DAL\bin\Debug\DAL.pdb
+F:\网站代码2014\RouteRecomment\DAL\bin\Debug\Model.dll
+F:\网站代码2014\RouteRecomment\DAL\bin\Debug\Model.pdb
+F:\网站代码2014\RouteRecomment\DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\网站代码2014\RouteRecomment\DAL\obj\Debug\DAL.dll
+F:\网站代码2014\RouteRecomment\DAL\obj\Debug\DAL.pdb
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\DAL\bin\Debug\DAL.dll
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\DAL\bin\Debug\DAL.pdb
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\DAL\bin\Debug\Model.dll
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\DAL\bin\Debug\Model.pdb
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\DAL\obj\Debug\DAL.dll
+F:\旅游网站\旅游网站\RouteRecomment8_18\RouteRecomment\DAL\obj\Debug\DAL.pdb
+F:\RouteRecomment8_18\RouteRecomment\DAL\bin\Debug\DAL.dll
+F:\RouteRecomment8_18\RouteRecomment\DAL\bin\Debug\DAL.pdb
+F:\RouteRecomment8_18\RouteRecomment\DAL\bin\Debug\Model.dll
+F:\RouteRecomment8_18\RouteRecomment\DAL\bin\Debug\Model.pdb
+F:\RouteRecomment8_18\RouteRecomment\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\RouteRecomment8_18\RouteRecomment\DAL\obj\Debug\DAL.dll
+F:\RouteRecomment8_18\RouteRecomment\DAL\obj\Debug\DAL.pdb

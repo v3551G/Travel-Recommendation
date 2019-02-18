@@ -1,0 +1,27 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				
+
+梁漱溟在穿山的摩崖石刻
+
+塔山倒影
+膜拜梁漱溟铜像，梁漱溟祖上是桂林人，他自己曾在穿山公园居住过三年，1988年仙逝后，将一半骨灰安葬在山东邹平，一半在穿山公园，坐落在一笔架峰山脚下。有铜像、碑文等你来膜拜。看桂林新闻时知道在穿山梁漱溟墓竖了他的铜像。前两天，中午去游泳馆时就顺带绕了一下，过去看了一眼，感觉神态蛮好，符合梁的性格。梁是一个很自信的人，留下了很多名言，如&ldquo;一觉醒来，和平已经死了&rdquo;，&ldquo;三军可夺帅也，匹夫不可夺志也&rdquo;&ldquo;为往圣继绝学，为来世开太平&rdquo;等。
+(本文地址：http://www.guilin7.com/youji/4088.html)
+			
+			

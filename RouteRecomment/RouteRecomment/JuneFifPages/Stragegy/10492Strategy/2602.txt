@@ -1,0 +1,21 @@
+
+			
+ Baidu Button BEGIN 
+
+分享文章参与旅游代金劵抽奖：
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+ Baidu Button END 
+				　　这几天打电话咨询酒店的特别多，可是每每到阳朔就跟野马导游跑了。我也没有办法，我总不能也去那里拉吧。。。。　　 咨询黄金周大多数是无奈的叹气，因为太贵了。。。我也不想这样，可是整体阳朔酒店都这样。。。又是一个我也没有办法的语态啊。。。　　 客人要去象鼻山坐竹筏，说是我在他们放心。。。其实我也不放心啊，水警会不会抓啊。不过事实证明，这样确实比直接买象鼻山之旅门票要爽。。。有山有水有竹排。。。美景当前，风光无限美好呀。(本文地址：http://www.guilin7.com/youji/2602.html)
+			
+			
